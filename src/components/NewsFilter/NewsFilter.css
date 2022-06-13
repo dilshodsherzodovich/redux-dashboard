@@ -1,0 +1,28 @@
+.btn-group {
+  border-radius: 2rem !important;
+}
+.btn-group .btn {
+  margin-right: 5px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 19px !important;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff !important;
+}
+
+.btn-group .btn.active,
+.btn:focus {
+  background: #ffca2c;
+  color: #fff;
+
+  box-shadow: 0 0 5px 2px rgba(116, 114, 114, 0.8) !important;
+}
+
+@media (max-width: 420px) {
+  .btn-group {
+    flex-wrap: wrap;
+  }
+}

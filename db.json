@@ -1,0 +1,38 @@
+{
+  "news": [
+    {
+      "id": "sDPWAwG4nuQubXouNXX6f",
+      "name": "The rise of Haaland - and what happens next",
+      "description": "The 21-year-old scored 86 goals in 89 games for Dortmund and arrives at the Premier League champions as one of world football's most coveted forwards. He has signed a five-year deal until 2027 and will join the club on 1 July.",
+      "category": "Sport News"
+    },
+    {
+      "id": "sDlsmcsdmlcsmdvkAdKM",
+      "name": "Georgia investigators are monitoring the Jan 6. committee hearings for relevant testimony",
+      "description": "Georgia investigators looking into potential criminality around then-President Trump’s efforts to overturn the 2020 election results in the state are keeping an eye on the Jan. 6 hearings for anything relevant to their case, according to a person familiar with the matter.",
+      "category": "Hot News"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": ""
+    },
+    {
+      "name": "hot",
+      "label": "Hot News",
+      "className": ""
+    },
+    {
+      "name": "world",
+      "label": "World News",
+      "className": ""
+    },
+    {
+      "name": "sport",
+      "label": "Sport News",
+      "className": ""
+    }
+  ]
+}

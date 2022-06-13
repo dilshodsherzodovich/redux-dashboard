@@ -1,0 +1,56 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  overflow-y: auto;
+  background: url(./assets/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background: {
+    position: center;
+    size: cover;
+    repeat: no-repeat;
+  }
+  h1 {
+    color: #fff;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 540px 500px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    &__page {
+      display: flex;
+      flex-direction: column;
+      padding-left: 40px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .app .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    padding-top: 1rem;
+    &__page {
+      width: 100%;
+      padding-left: 0;
+      flex-direction: column-reverse;
+      padding-bottom: 1rem;
+      & .card {
+        margin-bottom: 1rem;
+      }
+    }
+    &__view {
+      padding-left: 0;
+    }
+  }
+}
